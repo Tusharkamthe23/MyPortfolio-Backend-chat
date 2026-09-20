@@ -44,7 +44,7 @@ retriever = db.as_retriever(search_kwargs={"k": 3})
 # --- LLM ---
 llm = ChatGroq(
     api_key=GROQ_API_KEY,
-    model_name="llama-3.1-8b-instant"
+    model_name="llama-3.3-70b-versatile"
 )
 
 # --- Format retrieved docs ---
